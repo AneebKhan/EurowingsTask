@@ -10,7 +10,7 @@ import retrofit2.http.GET
 import retrofit2.http.Path
 import retrofit2.http.Query
 
-interface ImagesApi {
+interface ImageApi {
     @GET("gallery/{section}/{sort}/{window}/{page}")
     suspend fun getGalleryImages(
         @Path("section") section : String,
@@ -23,13 +23,13 @@ interface ImagesApi {
     ) : Response<FeedResponse>
 
     companion object {
-        operator fun invoke(): ImagesApi {
+        operator fun invoke(): ImageApi {
             return Retrofit.Builder()
                 .baseUrl(BuildConfig.BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(getAuthorizationHeaderInterceptor())
                 .build()
-                .create(ImagesApi::class.java)
+                .create(ImageApi::class.java)
         }
 
         private fun getAuthorizationHeaderInterceptor(): OkHttpClient? {

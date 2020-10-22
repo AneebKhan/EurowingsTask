@@ -6,4 +6,114 @@
     android:layout_height="match_parent"
     tools:context=".presentation.detail.ImageDetailActivity">
 
+    <ImageView
+        android:id="@+id/imgFeed"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_250"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFeed"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvTitle"
+            style="@style/HeadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/tvDesc"
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:id="@+id/llUpVote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen_20"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UpVote: "
+                style="@style/TextView"
+                />
+
+            <TextView
+                android:id="@+id/tvUpVote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llDownVote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen_10"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DownVote: "
+                style="@style/TextView"
+                />
+
+            <TextView
+                android:id="@+id/tvDownVote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dimen_10"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Score: "
+                style="@style/TextView"
+                />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

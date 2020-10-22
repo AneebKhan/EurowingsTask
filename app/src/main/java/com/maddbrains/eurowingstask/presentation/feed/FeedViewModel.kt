@@ -9,7 +9,7 @@ class FeedViewModel(
     private val repository: ImageRepository
 ) : BaseViewModel() {
 
-    private var feedListener: FeedListener? = null
+    var feedListener: FeedListener? = null
 
     fun getGalleryImages(section : String, sort : String, window : String) {
         Coroutines.main {

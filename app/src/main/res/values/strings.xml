@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">EurowingsTask</string>
+
+    <string name="filter_select_section">Select Section</string>
+    <string name="filter_sort_by">Sort By</string>
+    <string name="filter_window">Window</string>
+    <string name="button_filter">Filter</string>
+    <string name="title_filter">Filter</string>
+
+    <string-array name="views">
+        <item>Grid View</item>
+        <item>List View</item>
+        <item>Staggered View</item>
+    </string-array>
+
+    <string-array name="sections">
+        <item>hot</item>
+        <item>top</item>
+        <item>user</item>
+    </string-array>
+
+    <string-array name="sort">
+        <item>viral</item>
+        <item>top</item>
+        <item>time</item>
+        <item>rising</item>
+    </string-array>
+
+    <string-array name="window">
+        <item>day</item>
+        <item>week</item>
+        <item>month</item>
+        <item>year</item>
+        <item>all</item>
+    </string-array>
 </resources>

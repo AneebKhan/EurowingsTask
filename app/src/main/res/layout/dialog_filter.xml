@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_10">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeadingTextView"
+        android:text="@string/filter_select_section"
+        />
+
+    <Spinner
+        android:id="@+id/spSection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeadingTextView"
+        android:text="@string/filter_sort_by"
+        />
+
+    <Spinner
+        android:id="@+id/spSortBy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/HeadingTextView"
+        android:text="@string/filter_window"
+        />
+
+    <Spinner
+        android:id="@+id/spWindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10"
+        android:layout_marginTop="@dimen/dimen_10"
+        />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_20"
+        android:text="@string/button_filter"
+        />
+
+</LinearLayout>

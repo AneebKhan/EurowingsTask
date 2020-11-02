@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">EurowingsTask</string>
+    <string name="app_name">Imgur</string>
 
     <string name="filter_select_section">Select Section</string>
     <string name="filter_sort_by">Sort By</string>

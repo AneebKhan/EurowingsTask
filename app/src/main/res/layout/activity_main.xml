@@ -6,7 +6,7 @@
     <data>
         <variable
             name="feedViewModel"
-            type="com.maddbrains.eurowingstask.presentation.feed.FeedViewModel" />
+            type="com.maddbrains.imgur.presentation.feed.FeedViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

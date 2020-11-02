@@ -1,6 +1,6 @@
-# EurowingsTask
-Eurowings Android Developer Test
-<p align="center"><img src="https://thedesignair.files.wordpress.com/2015/01/eurowings.jpg" ></a></p>
+# Imgur Gallery
+Loading Imgur Gallery images using clean architecture
+<p align="center"><img src="https://cdn.vox-cdn.com/thumbor/OZIH26mVpds7wpxLZP_fi7t6gHs=/0x50:969x595/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/46063600/imgur.0.0.png" ></a></p>
 
 ## Prereqs
 
@@ -21,22 +21,3 @@ App is based on **MVVM** architecture. Structure is broken down by the general p
 4. **Retrofit2** : Used for calling Imgur Gallery API.
 5. **LiveData** : Used for reactive programming
 6. **Glide** : Used for loading gallery images.
-
-## Notes
-Total duration: ~8h.
-- Paper prototyping: ~30'
-- Search for assets online: ~30'
-- Setup project: ~15'
-- Setup project dependecies:  ~15'
-- Setup project architecutre: ~2h
-- Model creation: ~40'
-- Base classes: ~40'
-- Main Screen UI: ~40'
-- Filter Mechanism: ~2h
-
-Decision made because of restricted time/improvements with more time:
-- Use of RxJava.
-- Use of Dagger2 for DI
-- Better error handling.
-- Implentaion of Unit and UI testing but i tried to write as much testable code as possible.
-
